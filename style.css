@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.btn{
+    cursor: pointer;
+}
+.btn , input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.hero{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    border-radius: 4px;
+}
+.hero .left-content {
+    width: 47%;
+    text-align: left;
+    padding:3% 0 0 5%;
+    box-sizing: border-box;
+    line-height: 1.6;
+
+}
+.hero .left-content h2{
+    font-family: 300;
+    font-family: sans-serif;
+}
+.hero .left-content input{
+    background: none;
+    border-bottom: 0.8px solid rgb(218, 218, 218);
+
+}
+.hero .left-content .sign-btn{
+    background-color: indigo;
+    margin: 20% 0 0 0;
+    border-radius: 4px;
+    color: white;
+    width: 50%;
+    background-color: rgb(28, 202, 124);
+    box-sizing: border-box;
+    padding: 7px;
+    transition: 0.5s;
+}
+.hero .left-content .sign-btn:hover{
+    background-color: rgb(35, 232, 143);
+}
+.hero .submit{
+    width: 6%;
+    height: 6vh;
+    align-self: center;
+    border-radius: 50%;
+    border: none;
+    background:rgb(210, 210, 210);
+    font-weight: 300;
+}
+.hero .right-content{
+    width: 47%;
+    padding:3% 0 0 5%;
+    padding-top: 20px;
+}
+.hero .right-content h2{
+    color:     rgb(28, 202, 124)    ;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 40px;
+
+}
+.hero .right-content .btn{
+    width: 80%;
+    height: 7vh;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.5s;
+}
+.hero .right-content .btn-facebook{
+    background-color: #3a5199;
+}
+.hero .right-content .btn-twitter{
+    background-color: #00ACEE;
+}
+.hero .right-content .btn-google{
+    background-color: red;
+}
+
+.hero .right-content .btn:hover{
+    color: black;
+}
