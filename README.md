@@ -1,5 +1,3 @@
-# social-login-page
-
 # Description:
 
 This repository contains a simple login page designed using HTML, CSS, and JavaScript. The login page offers users the option to sign up with their username, email, and password, or they can choose to sign in using their social network accounts such as Facebook, Twitter, or Google. The design is clean and user-friendly, making it easy for users to navigate and interact with the interface.
