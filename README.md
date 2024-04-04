@@ -5,6 +5,7 @@ This repository contains a simple login page designed using HTML, CSS, and JavaS
 ![image](https://github.com/jihado-i/social-login-page/assets/81075046/1e4c5d1d-00ef-4dcd-85a5-970fac4a44a5)
 
 
+
 # Live Preview:
 You can view a live preview of the login page [here](https://jihado-i.github.io/social-login-page/).
 
